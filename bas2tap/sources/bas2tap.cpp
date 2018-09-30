@@ -197,7 +197,7 @@ void Bas2Tap(const char *pSourceFile,const char *pDestFile,bool bAutoRun,bool bU
 	buf[i++]=0;
 	buf[i++]=0;
 
-        //following line modified by Wilfrid AVRILLON (Waskol) 06/20/2009
+        //following line modified by Chloé AVRILLON (Ladywasky) known also as Wilfrid AVRILLON (Waskol) before 2012. 06/20/2009
         //It should follow this rule of computation : End_Address=Start_Address+File_Size-1
         //Let's assume a 1 byte program, it starts at address #501 and ends at address #501 (Address=Address+1-1) ! 
         //It was a blocking issue for various utilities (tap2wav for instance)
